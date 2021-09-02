@@ -28,8 +28,6 @@ const requestToMainScript = () => {
 window.addEventListener('DOMContentLoaded', _ => {
     const btn = document.getElementById('mode-switcher') as HTMLButtonElement
 
-    console.log('HELLO', btn);
-
     const setBtnText = (txt: string) => btn.innerText = `to ${txt}`
 
     const changeMode = (isOne: boolean) => {

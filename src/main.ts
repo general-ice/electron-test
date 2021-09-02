@@ -50,5 +50,4 @@ app
 
         win
             .loadFile(mainWinHtmlPath)
-            .then(_ => console.log('Main window was loaded'))
     })
